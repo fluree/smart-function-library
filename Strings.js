@@ -25,6 +25,6 @@
     "name": "restrictChar",
     "docs": "Checks that the string does not contain a certain character.",
     "params": ["test", "char"],
-    "code": "(if-else (re-find char test) false true)"
+    "code": "(not (re-find char test))"
 }]
 

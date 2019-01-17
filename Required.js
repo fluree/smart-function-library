@@ -6,7 +6,7 @@
     "name": "required", 
     "params": ["predicateName"],
     "doc": "Checks that the collection has a certain predicate",
-    "code": "(get (?e) predicateName)"
+    "code": "(boolean (get (?e) predicateName))"
 }]
 
 

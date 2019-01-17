@@ -23,7 +23,7 @@
     "name": "bufferedAfter?",
     "doc": "Checks whether current time is at or after a given time, with a buffer",
     "param": ["checkTime", "buffer"],
-    "code": "(<= (now)  (+ checkTime buffer))"
+    "code": "(<= (now) (+ checkTime buffer))"
 }]
 
 [{
@@ -32,13 +32,4 @@
     "doc": "Checks whether current time is at or before a given time, with a buffer",
     "param": ["checkTime", "buffer"],
     "code": "(>= (now) (- checkTime buffer))"
-}]
-
-// DATE + TIME ?
-
-// Min objects in multi predicate
-[{
-    "_id": "_fn$minObjects",
-    "name": "minObjects",
-    "doc": "Checks that "
 }]
