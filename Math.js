@@ -99,15 +99,3 @@
     "params": ["x"],
     "code": "(if-else (> (- (ceil (abs x)) (abs x)) (- (abs x) (floor (abs x)))) (if-else (negative? x) (ceil x) (floor x)) (if-else (negative? x) (floor x) (ceil x)))"
 }]
-
-// 11. Between?
-[{
-    "_id": "_fn$between?",
-    "name": "between?",
-    "doc": "Checks whether the given number is between (inclusive) two given numbers",
-    "params": ["min", "max", "x"],
-    "code": "(and (<= x max) (>= x min))"
-}]
-
-// Example: "(between? 1990 2000 x)"
-
